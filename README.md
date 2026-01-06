@@ -1,7 +1,5 @@
 # Data Visualization Performance Analysis
-
-This analysis evaluates the real-time performance of a Python-based visualization
-subsystem used for monitoring strain and deformation in a composite aircraft rudder.
+This repository contains the data visualization and performance analysis work from my senior capstone project, focused on evaluating real-time sensor data display for an embedded composite structure.
 
 ## Purpose
 Verify that the visualization pipeline can display live sensor data with minimal
@@ -18,7 +16,7 @@ Simulated strain and temperature data were streamed at 20 Hz to replicate planne
 ESP32 sensor output rates. Frame render time, FPS, and data-to-display lag were
 measured using Python's perf_counter().
 
-## Results
+## Key Results
 | Library | Avg Render (ms) | FPS | Lag (ms) |
 |--------|-----------------|-----|---------|
 | Matplotlib | 71.24 | 14.04 | 72.59 |
