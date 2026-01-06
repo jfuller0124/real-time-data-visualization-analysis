@@ -1,0 +1,3 @@
+Library,Avg Render (ms),FPS,Lag (ms)
+Matplotlib,71.24,14.04,72.59
+PyVista,1.55,643.6,2.21
